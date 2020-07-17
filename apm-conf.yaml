@@ -1,0 +1,9 @@
+apiVersion: apm.k8s.elastic.co/v1alpha1
+kind: ApmServer
+metadata:
+  name: apm-server
+spec:
+  version: 7.8.0
+  nodeCount: 1
+  elasticsearchRef:
+    name: "elk-cluster"
