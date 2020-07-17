@@ -29,9 +29,9 @@ user: elastic
 secret: j7m4cwnhcmjgq78d7dsbv4vj
 
 ---Comandos para validar o status dos deployments
-kubectl get elasticsearch,kibana,apmserver -n elastic-stack
-kubectl get services -n elastic-stack
-kubectl get services -n elastic-stack
+>kubectl get elasticsearch,kibana,apmserver -n elastic-stack
+>kubectl get services -n elastic-stack
+>kubectl get services -n elastic-stack
 
 
 kubectl port-forward service/kibana-kb-http 5601 -n elastic-stack
